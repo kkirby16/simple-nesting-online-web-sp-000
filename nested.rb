@@ -60,9 +60,9 @@ def dennis_ritchies_language
         }
      }
      
-     language_in_array = programmer_hash[:dennis_ritchie][:languages]
+     programmer_hash[:dennis_ritchie][:languages].flatten
      
-     language_in_array.to_s
+
 end
 
 def adding_matz
